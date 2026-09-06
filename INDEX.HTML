@@ -1,0 +1,36 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Jogo da Cobrinha Realista</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#101018">
+<link rel="apple-touch-icon" href="icon.png">
+</head>
+<body>
+  <h1>COBRINHA</h1>
+  <div id="hud">
+    <div>Pontos: <span class="value" id="score">0</span></div>
+    <div>Recorde: <span class="value" id="best">0</span></div>
+  </div>
+
+  <div class="board-wrap">
+    <canvas id="game" width="440" height="440"></canvas>
+  </div>
+
+  <div id="message"></div>
+  <button id="restartBtn">Reiniciar</button>
+  <p class="hint">Use as setas do teclado ou os botões abaixo</p>
+
+  <div id="controls">
+    <button class="dpad" id="btnUp">▲</button>
+    <div class="dpad-row">
+      <button class="dpad" id="btnLeft">◀</button>
+      <button class="dpad" id="btnDown">▼</button>
+      <button class="dpad" id="btnRight">▶</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
