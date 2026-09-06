@@ -1,0 +1,16 @@
+{
+  "name": "Cobrinha",
+  "short_name": "Cobrinha",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "#101018",
+  "theme_color": "#101018",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
